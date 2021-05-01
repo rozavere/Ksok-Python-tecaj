@@ -43,21 +43,21 @@ Python je interpretni visokoravni večnamenski programski jezik. Interpretni(int
 Nekateri programski jeziki uporabljajo razne znake(<code>{ }, ;, ...</code>) za ločevanje blokov kode, pri Pythonu to ni tako, uporablja se indentacijo(indente) za ločevanje blokov. Indent kot tak je le niz z, ponavadi 4-mi, presdledki. Krajše napišemo oz. natipkamo z tipko <code>Tab</code>, primer: 
 
 Python  
-'''python
+```python
 # To ni indentirano in vrne napako
 if True:
 print("Hello world")
-'''
+```
 
-'''python
+```python
 # To je pravilno indentirano
 if True:
   print("Hello world")
-'''
+```
 
 Primer iste kode v programskem jeziku Java kjer se bloke deli z uporabo {, }:
 
-'''java
+```java
 class HelloWorld {
     public static void main(String[] args) {
         if (True) {
@@ -65,7 +65,7 @@ class HelloWorld {
         }
     }
 }
-'''
+```
 
 Vse to bo bolj razumljivo v prihodnosti(zankah, funkcijah, ...), ko bomo to potrebovali.
 
